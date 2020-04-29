@@ -1,0 +1,8 @@
+.preview-section {
+background-color: #333;
+}
+
+.preview-image-div img {
+    max-height: 720px;
+
+}

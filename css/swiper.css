@@ -1,0 +1,146 @@
+.card {
+    background: none;
+    max-width: 100%;
+    border: 0;
+}
+
+.card-body {
+    color: white;
+}
+
+.card-body h4 {
+    font-size: .9em;
+    height: 39px;
+    margin-bottom: 3px;
+    font-family: 'PT Serif', serif;
+}
+
+.card-body h5 {
+    font-size: 1.1vw;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-family: 'PT Serif', serif;
+}
+
+.swiper-container {
+    padding: 0 30px;
+}
+
+.swiper-pagination-bullet-active, .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+
+.swiper-pagination-bullet {
+    background-color: #ccc;
+    opacity: .2;
+    transition: all .2s ease-in-out;
+}
+
+.swiper-pagination-bullet:not(.swiper-pagination-bullet-active):hover {
+    opacity: .7;
+}
+
+.swiper-pagination-bullet-active.swiper-pagination-bullet {
+    background-color: #f4bd13;
+    opacity: 1;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    height: 90%;
+    top: 5%;
+    width: 30px;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 0 0 50rem 50rem;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.swiper-button-prev {
+    left: -4px;
+}
+
+.swiper-button-next {
+    right: -4px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 18px;
+    color: white;
+}
+
+.swiper-container:hover .swiper-button-next {
+    opacity: 1;
+    right: 0;
+}
+
+.swiper-container:hover .swiper-button-prev {
+    left: 0;
+    opacity: 1;
+}
+
+.heart {
+    top: 10px;
+    right: 10px;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    transition: all .1s ease-in-out;
+    opacity: 0;
+}
+
+.heart:hover {
+    border-color: #D60800;
+    background-color: #D60800;
+}
+
+.btm-quick-view-div {
+    bottom: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all .2s ease-in-out;
+}
+
+.btm-quick-view-div i {
+    font-size: 30px;
+    color: white;
+}
+
+.btm-quick-view-div span {
+    left: 9px;
+    top: 4px;
+    font-size: 1em;
+
+}
+
+.quick-view {
+    background: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 35px;
+    transform: scaleY(0);
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.quick-view a {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.card-img-div:hover .btm-quick-view-div {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.card-img-div:hover .quick-view {
+    transform: scaleY(1);
+}
+
+.card-img-div:hover .heart {
+    opacity: 1;
+}
+
+.btm-quick-view-div div.position-relative:hover  span {
+    color: white;
+}

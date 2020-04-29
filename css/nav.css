@@ -1,0 +1,365 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+}
+.stuck {
+    position: fixed;
+}
+
+.nav-top {
+    background-color: #343339 !important;
+}
+
+.nav-top h5 {
+    color: #f4bd13;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.info-links ul {
+    list-style: none;
+}
+
+.info-links ul li {
+    display: inline;
+    font-size: .8em;
+}
+
+.info-links ul li:nth-child(1) a, .info-links ul li:nth-child(2) a {
+    padding-right: 5px;
+    border-right: 1px solid #717171;
+}
+
+.info-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.info-links a:hover {
+    color: #fff;
+}
+
+.nav-mid {
+    background-color: #1d1e1f;
+    padding: 1rem 0;
+    transition: padding .5s ease-in-out;
+}
+
+#logo {
+    max-height: 45px;
+}
+
+.searchCategories, .searchBox {
+    background-color: #343239;
+    border: 1px solid #525156;
+    color: #fff;
+}
+
+.searchBox {
+    flex: 1;
+    font-size: 14px;
+}
+
+.searchBox::placeholder {
+    color: white;
+}
+
+.searchCategories {
+    width: 50px;
+    font-size: 15px;
+}
+
+.width_tmp_select {
+    display: none;
+}
+
+.nav-mid-ul {
+    list-style: none;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-mid-ul li:not(:last-child) {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid #717171;
+}
+
+.nav-mid-ul li:not(:last-child) a {
+    background-color: #efefef;
+    color: #4c4c4c;
+    text-decoration: none;
+    transition: all .08s ease-in-out;
+    border: 1px solid #fff;
+}
+
+.nav-mid-ul li:not(:last-child) a:hover {
+    background-color: #c1c1c1;
+    color: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+
+.nav-mid-ul li:last-child {
+    padding-left: 10px;
+}
+
+.nav-mid-ul li:last-child a {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    transition: all .08s ease-in-out;
+}
+
+.nav-mid-ul li:last-child a:hover {
+    background-color: #fff;
+    color: #4c4c4c;
+    border: 1px solid white;
+}
+
+.nav-btm {
+    background-color: #f4bd13;
+}
+
+.nav-btm-ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.nav-btm-ul li > a {
+    color: #000;
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#dropdownMenuButton {
+    background: 0;
+    border: 0;
+    display: inline;
+    font-size: 10px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.dropdown > .dropdown-menu {
+    top: 200%;
+    transition: all 0.7s ease-in-out;
+    background-color: #343339;
+    width: 260px;
+}
+
+.dropdown > .dropdown-menu > .dropdown-item:not(:last-child) {
+    border-bottom: 1px solid #f4bd1236;
+}
+
+.dropdown > .dropdown-menu > .dropdown-item:hover {
+    background: 0;
+    color: white;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    top: 150%;
+}
+
+.dropdown > .dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.nav-btm-ul li > a:first-child {
+    color: #474747;
+}
+
+.nav-btm-ul li:not(:last-child):after {
+    content: "";
+    width: 1px;
+    position: relative;
+    left: 16px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    height: 13px;
+    margin-top: -7px;
+}
+
+.nav-btm h5 {
+    font-size: 10px;
+    color: #000;
+    margin: 0;
+    font-weight: bold;
+}
+
+header .input-group-append {
+    margin-left: -30px;
+}
+
+header .input-group-append button {
+    background: 0;
+    border: 0;
+}
+
+header .fa-search:before {
+    color: white;
+}
+
+header .fa-bars {
+    font-size: 1.3em;
+    color: white;
+}
+
+header .hamburger {
+    background: 0;
+    border: 0;
+}
+
+@media screen and (max-width: 991px) {
+
+    .nav-btm {
+        background-color: #343339;
+    }
+
+    .nav-btm h5 {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    .nav-btm h5:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .nav-btm-ul {
+        display: initial;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .nav-btm-ul li:not(:last-child) {
+        border-bottom: 1px solid rgba(255, 255, 255, .2);
+    }
+
+    .nav-btm-ul li:not(:last-child):after {
+        height: 0;
+        border: 0;
+    }
+
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 10000; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: rgba(0, 0, 0, .95); /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 30px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* width */
+    .sidenav::-webkit-scrollbar {
+        width:0;
+    }
+
+    /* Track */
+    .sidenav::-webkit-scrollbar-track {
+        background: 0;
+    }
+
+    /* Handle */
+    .sidenav::-webkit-scrollbar-thumb {
+        background: 0;
+    }
+
+    /* Handle on hover */
+    .sidenav::-webkit-scrollbar-thumb:hover {
+        background: 0;
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        text-decoration: none;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav li a {
+        font-size: 1rem;
+        color: white;
+    }
+
+    .nav-btm-ul li a:first-child {
+        color: rgba(255, 255, 255, .8);
+        transition: all .1s ease-in-out;
+    }
+
+    .nav-btm-ul li a:first-child:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    #dropdownMenuButton {
+        font-size: 1rem;
+        color: rgba(255,255,255,.8);
+    }
+
+    #sidenav-close-div {
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, .5);
+        z-index: 999;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    #sidenav-close-btn {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background: 0;
+        border: 0;
+    }
+
+    #sidenav-close-btn i {
+        color: rgba(255, 255, 255, .8);
+        font-size: 25px;
+    }
+
+    .delivery-times-title {
+        width: 100%;
+    }
+
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}

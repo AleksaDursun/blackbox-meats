@@ -1,0 +1,78 @@
+.newsletter-row {
+    background-color: #f4bd13;
+}
+
+.newsletter-title {
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.newsletter-button {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    transition: all .2s ease-in-out;
+}
+
+.newsletter-button:hover {
+    background-color: #1d1e1f;
+    color: white;
+}
+
+.footer-btm {
+    background-color: #0a0a0a;
+}
+
+.footer-btm .footer-terms-cond {
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer-btm .footer-terms-cond a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+    font-size: .85em;
+}
+
+.footer-btm .footer-terms-cond a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.powered-delivered span {
+    color: rgba(255, 255, 255, .6);
+}
+
+.powered-delivered span img {
+    width: 80px;
+}
+
+.payment-options i:before {
+    font-size: 35px;
+    color: rgba(255, 255, 255, .6);
+    transition: all .1s ease-in-out;
+}
+
+.payment-options i:hover:before {
+    color: rgba(255, 255, 255, 1);
+}
+
+#newsletter-modal .modal-content {
+    background-color: #2f2f2f;
+    border: 2px solid #ffffff2e;
+    border-radius: 0;
+}
+
+#newsletter-modal .modal-content .modal-header img {
+    height: 50px;
+}
+
+#newsletter-modal .modal-content-wrapper {
+    background-color: #1d1e1f;
+}
+
+#newsletter-modal .modal-footer {
+    border-top: 3px solid #f4bd13;
+    font-size: 1.3em;
+}

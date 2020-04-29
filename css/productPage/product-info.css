@@ -1,0 +1,85 @@
+.product-info-section p {
+    border-bottom: 1px solid #323334;
+}
+
+.product-info-section .social-link {
+    transition: background-color .1s ease-in-out;
+}
+
+.product-info-section .social-link.facebook:hover {
+    background-color: #3a589d;
+}
+
+.product-info-section .social-link.twitter:hover {
+    background-color: #2478bb;
+}
+
+.product-info-section .social-link.envelope:hover {
+    background-color: #000;
+}
+
+.product-info-section .social-link.pinterest:hover {
+    background-color: #cb2320;
+}
+
+.product-info-section .social-link.linkedin:hover {
+    background-color: #0072b7;
+}
+
+.product-info-section .social-link.tumblr:hover {
+    background-color: #36455d;
+}
+
+.width-20 {
+    width: 20px;
+}
+
+.add-to-cart-div {
+    background-color: #343339;
+}
+
+.add-to-cart-div .input-group-prepend button,
+.add-to-cart-div .input-group-append button,
+.add-to-cart-div .input-group-input {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-color: rgba(255, 255, 255, 0.09);
+    color: #fff;
+}
+
+.add-to-cart-div .input-group-input {
+    width: 40px;
+    height: 40px;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.add-to-cart-div .input-group-append button {
+    border-radius: 0 50rem 50rem 0;
+}
+
+.add-to-cart-div .input-group-prepend button {
+    border-radius:  50rem 0 0 50rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button.background-green {
+    transition: all .2s ease-in-out;
+}
+
+button.background-green:hover {
+    box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2);
+}
+
+.product-meta p {
+    border-top: 1px dotted white;
+}

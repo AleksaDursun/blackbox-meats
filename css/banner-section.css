@@ -1,0 +1,32 @@
+.banner-section {
+    background: url("../assets/images/bannerBg.jpg") rgba(0,0,0,.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+
+.font-weight-300 {
+    font-weight: 300!important;
+}
+
+.color-yellow {
+    color: #f4bd13;
+}
+
+.font-size-1-5 {
+    font-size: 1.5em;
+}
+
+.font-size-2 {
+    font-size: 2em;
+}
+
+.font-size-3-5 {
+    font-size: 3.5em;
+}
+
+.line-height-1-6 {
+    line-height: 1.6;
+}
