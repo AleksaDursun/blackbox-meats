@@ -45,8 +45,8 @@ function initialiseSwiper() {
                 slidesPerGroup: 4,
             },
             1200: {
-                slidesPerView: 4,
-                slidesPerGroup: 4,
+                slidesPerView: 6,
+                slidesPerGroup: 6,
             },
 
         },
